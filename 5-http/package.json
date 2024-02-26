@@ -1,0 +1,15 @@
+{
+  "name": "5-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weather.js",
+	"scripts": {
+		"start": "node weather.js",
+		"dev": "node -r dotenv/config weather.js"
+	},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+		"dotenv": "^16.4.5"
+	}
+}
