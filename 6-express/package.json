@@ -1,0 +1,16 @@
+{
+  "name": "6-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon -r dotenv/config api.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-form-data": "^2.0.23"
+  }
+}
